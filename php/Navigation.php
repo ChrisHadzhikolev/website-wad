@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../css/navigationStyle.css">
     <link
       rel="stylesheet"
@@ -26,7 +26,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <title>NavigationBar</title>
 </head>
 <body>
     
@@ -65,15 +64,15 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-        <a class="nav-link"href="index.php">TelepathyBean</a></li>
+        <a class="nav-link"href="../index.php">TelepathyBean</a></li>
       <li class="nav-item">
-        <a class="nav-link" href="php/NewsPage.php">News</a>
+        <a class="nav-link" href="NewsPage.php">News</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="AboutUsPage.php">About us</a>
       </li>   
       <li class="nav-item">
-        <a class="nav-link" href="php/ProjectsPage.php">Projects</a>
+        <a class="nav-link" href="ProjectsPage.php">Projects</a>
       </li>       
       </li>
     </ul>

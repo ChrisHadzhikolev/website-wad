@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebd6e7-427a-4170-9273-c3744ed0492c" name="Default Changelist" comment="back to top button">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/AboutUsPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutUsStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/Navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +110,7 @@
       <workItem from="1584230782386" duration="10511000" />
       <workItem from="1584897754667" duration="2696000" />
       <workItem from="1585302603270" duration="37121000" />
-      <workItem from="1585996828775" duration="532000" />
+      <workItem from="1585996828775" duration="1702000" />
     </task>
     <servers />
   </component>
