@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ebd6e7-427a-4170-9273-c3744ed0492c" name="Default Changelist" comment="back to top button" />
+    <list default="true" id="68ebd6e7-427a-4170-9273-c3744ed0492c" name="Default Changelist" comment="back to top button">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/AboutUsPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutUsStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Navigation.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +48,7 @@
         <option value="Kristian Hadzhikolev &lt;kris.hadzhikolev@gmail.com&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -79,6 +86,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wad-telepathy-bean\website-wad\css" />
+      <recent name="C:\xampp\htdocs\wad-telepathy-bean\website-wad\php" />
       <recent name="C:\xampp\htdocs\TelepathyBean\drawable" />
       <recent name="C:\xampp\htdocs\TelepathyBean\css" />
     </key>
@@ -106,6 +115,7 @@
       <workItem from="1584230782386" duration="10511000" />
       <workItem from="1584897754667" duration="2696000" />
       <workItem from="1585302603270" duration="37121000" />
+      <workItem from="1585996828775" duration="532000" />
     </task>
     <servers />
   </component>

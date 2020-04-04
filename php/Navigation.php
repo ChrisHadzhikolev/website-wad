@@ -70,7 +70,7 @@
         <a class="nav-link" href="php/NewsPage.php">News</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="aboutus.php">About us</a>
+        <a class="nav-link" href="AboutUsPage.php">About us</a>
       </li>   
       <li class="nav-item">
         <a class="nav-link" href="php/ProjectsPage.php">Projects</a>
