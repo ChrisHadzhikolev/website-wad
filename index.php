@@ -26,14 +26,9 @@ session_start(); ?>
     <title>Telepathy Bean</title>
 </head>
 <body>
-<div class="navigation">
-    <nav>
-        <ul>
-            <li><a href="#"><span>TelepathyBean</span></a></li>
-            <li class="home"><a href="#" onclick="alert('Coming Soon')">News</a></li>
-            <li class="home"><a href="php/ProjectsPage.php">Projects</a></li>
-            <li class="home"><a href="php/ContactUsPage.php">Contact Us</a></li>
-            <li class="home"><a href="php/AboutUsPage.php">About Us</a></li>
+<?php
+require_once "php/Navigation.php";
+?>
             <?php if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
                 <li class="login_reg"><a href="logout.php">Logout</a></li>
 
@@ -46,9 +41,7 @@ session_start(); ?>
             <?php else: ?>
                 <li class="login_reg"><a href="php/RegistrationPage.php">Registration</a></li>
             <?php endif; ?>
-        </ul>
-    </nav>
-</div>
+                
 <div class="main">
     <h1>Join us</h1>
     <a class="button" href="php/AboutUsPage.php">Click Me</a>

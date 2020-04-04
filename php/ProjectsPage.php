@@ -15,7 +15,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="stylesheet" href="../css/aboutUsStyle.css">
+    
     <link rel="stylesheet" href="../css/footerStyle.css">
     <link rel="stylesheet" href="../css/navigationStyle.css">
     <link rel="stylesheet" href="../css/backToTopStyle.css">

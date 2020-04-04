@@ -53,7 +53,7 @@ require_once "Navigation.php";
                 <span>Message:</span>
                 <br>
                 <label>
-                    <textarea name="message" placeholder="Your Comment..." required></textarea>
+                    <input type="text" name="subject" placeholder="Your comment..." required>
                 </label>
                 <br>
                 <button type="submit" name="submit">
