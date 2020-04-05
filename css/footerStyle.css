@@ -1,224 +1,171 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
-
-* {
-    padding: 0;
-    margin: 0;
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
 }
-
-footer {
-    bottom: 0;
-    position: static;
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
 }
-
-.footer {
-    background-color: #2c292f;
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 50px 50px;
+.site-footer hr.small
+{
+  margin:20px 0
 }
-
-.footer .footer-left,
-.footer .footer-right {
-    display: inline-block;
-    vertical-align: top;
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  margin-top:5px;
+  letter-spacing:2px
 }
+.site-footer h6 span
+{
+  font: normal 36px "Cookie", cursive;
+  font-size:16px;
+  margin-top:5px;
+  letter-spacing:2px;
+  color: #e0ac1c;
 
-.footer .footer-left {
-    width: 50%;
 }
-
-.footer h3 {
-    color: #ffffff;
-    font: normal 36px "Cookie", cursive;
-    margin: 0;
+.site-footer a
+{
+  color:#737373;
 }
-
-.footer h3 span {
-    color: #e0ac1c;
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
 }
-
-.footer .footer-links {
-    color: #ffffff;
-    margin: 20px 0 12px;
+.footer-links
+{
+  padding-left:0;
+  list-style:none
 }
-
-.footer .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
+.footer-links li
+{
+  display:block
 }
-
-.footer .footer-company-name {
-    color: #8f9296;
-    font-size: 14px;
-    margin: 0;
+.footer-links a
+{
+  color:#737373
 }
-
-.footer .footer-right {
-    width: 40%;
-    float: right;
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
 }
-
-.footer .footer-company-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    margin: 0;
+.footer-links.inline li
+{
+  display:inline-block
 }
-
-.footer .footer-company-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.site-footer .social-icons
+{
+  text-align:right
 }
-
-.footer .footer-icons {
-    margin-top: 25px;
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
 }
-
-.footer .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-
-    margin-right: 3px;
-    margin-bottom: 5px;
+.copyright-text
+{
+  margin:0
 }
-@media (max-height: 800px) {
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
-    footer {
-        position: fixed;
-        bottom: 0;
-        position: static;
-    }
-    footer {
-        position: static;
-        padding: 150px 50px;
-    }
-
-    header {
-        padding-top: 40px;
-    }
-    .footer .footer-left {
-        width: 0%;
-    }
-    .footer .footer-right {
-        width: 0%;
-    }
-    .footer .footer-right,
-    .footer .footer-left {
-        width: 0%;
-    }
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
 }
-
-.footer {
-    background-color: #2c292f;
-    box-sizing: border-box;
-    width: 100%;
-    text-align: center;
-    font: bold 16px sans-serif;
-    padding: 50px 50px 130px 50px;
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
 }
-
-.footer .footer-left,
-.footer .footer-right {
-    display: inline-block;
-    vertical-align: top;
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
 }
-
-.footer .footer-left {
-    width: 50%;
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
 }
-
-.footer h3 {
-    color: #ffffff;
-    font: normal 36px "Cookie", cursive;
-    margin: 0;
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
 }
-
-.footer h3 span {
-    color: #e0ac1c;
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
 }
-
-.footer .footer-links {
-    color: #ffffff;
-    margin: 20px 0 12px;
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
 }
-
-.footer .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
 }
-
-.footer .footer-company-name {
-    color: #8f9296;
-    font-size: 14px;
-    margin: 0;
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
 }
-
-.footer .footer-right {
-    width: 40%;
-    float: right;
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
 }
-
-.footer .footer-company-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    margin: 0;
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
 }
-
-.footer .footer-company-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
 }
-
-.footer .footer-icons {
-    margin-top: 25px;
-}
-
-.footer .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-@media (max-width: 880px) {
-    .footer .footer-left,
-    .footer .footer-right {
-        width: unset;
-    }
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }

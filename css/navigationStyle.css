@@ -3,50 +3,10 @@
 *::before,
 *::after,
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.navigation {
-    background-color: #2c292f;
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.navigation a {
-    text-decoration: none;
-}
-
-.navigation a span {
-    color: #e0ac1c;
-    cursor: pointer;
-    font: normal 25px 'Cookie', cursive;
-    text-decoration: none;
-}
-
-.navigation li {
-    float: left;
-}
-
-.navigation li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navigation li a:hover {
-    border-bottom: 5px solid #e0ac1c;
-
-}
-
-.navigation .login_reg {
-    float: right;
+.button.btn {
+  background-color: #e0ac1c;
 }

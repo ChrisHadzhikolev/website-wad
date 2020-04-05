@@ -11,7 +11,7 @@ body {
   max-width: 1000px;
   margin-left: 20%;
 }
-img{
+img {
   width: 100%;
 }
 h1 {
@@ -42,6 +42,11 @@ h1 {
 .content {
   background-color: white;
   padding: 10px;
+  transition: transform 0.2s;
+}
+.content:hover {
+  transform: scale(2);
+  align-items: center;
 }
 
 .show {
@@ -79,7 +84,7 @@ h1 {
     margin-left: 20%;
   }
 
-  img{
+  img {
     width: 100%;
   }
 
