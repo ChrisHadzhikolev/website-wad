@@ -1,0 +1,19 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button.btn {
+  background-color: #e0ac1c;
+}
+.nav-logout {
+  float: right;
+}
+span {
+  font: normal 36px "Cookie", cursive;
+  font-size: 18pt;
+}
