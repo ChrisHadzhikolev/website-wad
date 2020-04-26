@@ -1,9 +1,8 @@
-let x = document.getElementById("hiddenlinks");
-
-function expandMenu() {
-  if (x.style.display === "block") {
-    x.style.display = "none";
+function navigationDropdown() {
+  var x = document.querySelector(".navigation")
+  if (x.className === "navigation") {
+    x.classList.add("responsive");
   } else {
-    x.style.display = "block";
+    x.classList.remove("responsive");
   }
 }

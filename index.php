@@ -9,39 +9,68 @@ session_start(); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Volkhov&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+    />
+
 
     <link rel="stylesheet" href="css/indexStyle.css">
     <link rel="stylesheet" href="css/footerStyle.css">
     <link rel="stylesheet" href="css/navigationStyle.css">
     <link rel="stylesheet" href="css/backToTopStyle.css">
 
-
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Volkhov&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+    ></script>
 
     <title>Telepathy Bean</title>
+
 </head>
 <body>
-<?php
-require_once "php/Navigation.php";
-?>
-            <?php if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
-                <li class="login_reg"><a href="logout.php">Logout</a></li>
+<div class="navigation" id="nav">
+    <a class="title" href="index.php"><span>TelepathyBean</span></a>
+    <a href="#" onclick="alert('Coming Soon')">News</a>
+    <a href="php/ProjectsPage.php">Projects</a>
+    <a href="php/ContactUsPage.php">Contact Us</a>
+    <a href="php/AboutUsPage.php">About Us</a>
+    <?php if( isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
+       <a href="logout.php" class="login_reg">Logout</a>
+    <?php else: ?>
+        <a href="php/LoginPage.php" class="login_reg">Login</a>
+    <?php endif; ?>
 
-            <?php else: ?>
-                <li class="login_reg"><a href="php/LoginPage.php">Login</a></li>
-            <?php endif; ?>
+    <?php if( isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
+        <a href="php/MyProfilePage.php" class="login_reg">My Profile</a>
+    <?php else: ?>
+      <a href="php/RegistrationPage.php" class="login_reg">Registration</a>
+    <?php endif; ?>
 
-            <?php if( isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
-                <li class="login_reg"><a href="php/MyProfilePage.php">My Profile</a></li>
-            <?php else: ?>
-                <li class="login_reg"><a href="php/RegistrationPage.php">Registration</a></li>
-            <?php endif; ?>
-                
+    <a href="javascript:void(0);" class="icon" onclick="navigationDropdown()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
 <div class="main">
     <h1>Join us</h1>
     <a class="button" href="php/AboutUsPage.php">Click Me</a>
@@ -105,6 +134,6 @@ require_once "php/Navigation.php";
         </div>
     </div>
 </footer>
-
+<script src="js/hamburgerMenu.js"></script>
 </body>
 </html>
