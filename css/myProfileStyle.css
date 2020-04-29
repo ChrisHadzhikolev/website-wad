@@ -1,11 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #2c292f;
+  color: #e0ac1c;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 400px;
-  margin: auto;
   text-align: center;
-  margin-top: 18%;
+  margin: 18% auto auto;
+  background-color: #2c292f;
 }
-
+.image{
+  width: 100%;
+}
+input{
+  color: black;
+}
 .title {
   color: grey;
   font-size: 18px;
@@ -16,8 +30,8 @@ button {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color: black;
+  background-color: #e0ac1c;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -33,4 +47,9 @@ a {
 button:hover,
 a:hover {
   opacity: 0.7;
+}
+#style{
+  background: linear-gradient(141deg, #e0ac1c 0%, #f1c751 31%, #f3d990 51%);
+  border-color: black;
+  color:black;
 }
