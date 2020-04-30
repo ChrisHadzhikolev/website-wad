@@ -47,45 +47,44 @@ require_once "Navigation.php";
       <th scope="row">1</th>
       <td>Mark</td>
       <td>@GubqTeBavno </td>
-      <td><button class="btn"><i class="fa fa-trash"></i> Remove</button></td>
-      <td><button class="btn"><i class="fas fa-pen"></i> Edit user</button></td>
-      
+      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>      
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>@TheBoss</td>
-      <td><button class="btn"><i class="fa fa-trash"></i> Remove</button></td>
-      <td><button class="btn"><i class="fas fa-pen"></i> Edit user</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>@hop</td>
-      <td><button class="btn"><i class="fa fa-trash"></i> Remove</button></td>
-      <td><button class="btn"><i class="fas fa-pen"></i> Edit user</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
     <tr>
       <th scope="row">4</th>
       <td>Mark</td>
       <td>Otto</td>
-      <td><button class="btn"><i class="fa fa-trash"></i> Remove</button></td>
-      <td><button class="btn"><i class="fas fa-pen"></i> Edit user</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
       
     </tr>
     <tr>
       <th scope="row">5</th>
       <td>Mark</td>
       <td>@Habibi</td>
-      <td><button class="btn"><i class="fa fa-trash"></i> Remove</button></td>
-      <td><button class="btn"><i class="fas fa-pen"></i> Edit user</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
     <tr>
       <th scope="row">6</th>
       <td>Mark</td>
       <td>@Mda</td>
-      <td><button class="btn"><i class="fa fa-trash"></i> Remove</button></td>
-      <td><button class="btn"><i class="fas fa-pen"></i> Edit user</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
   </tbody>
 </table>
