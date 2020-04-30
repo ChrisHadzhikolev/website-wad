@@ -33,7 +33,7 @@ require_once "Navigation.php";
 <body style="background-color:#e0ac1c;">
 
 
-<table class="table" style="width: 50%; background-color:  #2f292f; color: white">
+<table class="table" style="width: 50%; background-color:  #2c292f; color: white">
   <thead class="thead" >
     <tr>
       
