@@ -33,10 +33,30 @@ require_once "Navigation.php";
 <body style="background-color:#e0ac1c;">
 
 
-<table class="table" style="width: 50%; background-color:  #2c292f; color: white">
+<table id="myTable" class="table" style="width: 50%; background-color:  #2c292f; color: white">
   <thead class="thead" >
     <tr>
       
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Warning</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to remove this user?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">No, don't remove</button>
+        <button onclick="myFunction()" type="button" class="btn btn-primary">Yes, remove</button>
+      </div>
+    </div>
+  </div>
+</div>   
       <th scope="col">First Name</th>
       <th scope="col">Last Name</th>
      
@@ -47,28 +67,30 @@ require_once "Navigation.php";
       <th scope="row">1</th>
       <td>Mark</td>
       <td>@GubqTeBavno </td>
-      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
-      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>      
+      <td><button type="button" class="btn btn-outline-warning"data-toggle="modal" data-target="#staticBackdrop">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>   
+      <!-- Button trigger modal -->
+
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>@TheBoss</td>
-      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning"data-toggle="modal" data-target="#staticBackdrop">Remove</button></td>
       <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>@hop</td>
-      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning"data-toggle="modal" data-target="#staticBackdrop">Remove</button></td>
       <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
     <tr>
       <th scope="row">4</th>
       <td>Mark</td>
       <td>Otto</td>
-      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning"data-toggle="modal" data-target="#staticBackdrop">Remove</button></td>
       <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
       
     </tr>
@@ -76,18 +98,23 @@ require_once "Navigation.php";
       <th scope="row">5</th>
       <td>Mark</td>
       <td>@Habibi</td>
-      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning"data-toggle="modal" data-target="#staticBackdrop">Remove</button></td>
       <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
     <tr>
       <th scope="row">6</th>
       <td>Mark</td>
       <td>@Mda</td>
-      <td><button type="button" class="btn btn-outline-warning">Remove</button></td>
+      <td><button type="button" class="btn btn-outline-warning"data-toggle="modal" data-target="#staticBackdrop">Remove</button></td>
       <td><button type="button" class="btn btn-outline-warning">Edit user</button></td>
     </tr>
   </tbody>
 </table>
+<script>
+function myFunction() {
+  document.getElementById("myTable").deleteRow(0);
+}
+</script>
 <?php
 require_once "Footer.php";
 ?>
