@@ -1,5 +1,7 @@
 <?php
 session_start();
+require_once "../variables.php";
+
 
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("location: LoginPage.php");
@@ -7,7 +9,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -62,11 +64,18 @@ require_once "Navigation.php";
         <div class="col-md-3">
             <div class="text-center">
                 <div class="card">
-                    <img class="image" src="../drawable/defPic.png" alt="User">
+
+                    <img class="image" src="<?php require_once '../image_load.php';?>" alt="error_loading_image">
                     <h1><?php echo $_SESSION["username"]?></h1>
                     <p class="title"><?php echo $_SESSION["first_name"] . " " . $_SESSION["last_name"] ?></p>
                     <p><?php echo $_SESSION["type"] . " ";?>User</p>
-                    <p><button onclick="alert('Coming Soon')">Upload Photo</button></p>
+                    <form method="post" action="" enctype='multipart/form-data'>
+                        <p id="imageUpload"><input type="file" name="image"></p>
+                        <input type='submit' value='Save Changes' name='but_upload'>
+                    </form>
+                    <?php
+                   require_once '../image_upload.php';
+                    ?>
                 </div>
             </div>
         </div>

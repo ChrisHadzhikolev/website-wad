@@ -15,7 +15,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    
+
     <link rel="stylesheet" href="../css/footerStyle.css">
     <link rel="stylesheet" href="../css/navigationStyle.css">
     <link rel="stylesheet" href="../css/backToTopStyle.css">
@@ -49,21 +49,21 @@ require_once "Navigation.php";
         <div class="column web">
             <div class="content">
                 <img src="../drawable/jaki-site.png" alt="Jacquline">
-                <h4>Jacqueline's portfolio</h4>
+                <a href=""><h4>Jacqueline's portfolio</h4></a>
                 <p>Homepage</p>
             </div>
         </div>
         <div class="column web">
             <div class="content">
                 <img src="../drawable/kris-site.png" alt="Kris">
-                <h4>Christian's portfolio</h4>
+                <a href=""><h4>Christian's portfolio</h4></a>
                 <p>Homepage</p>
             </div>
         </div>
         <div class="column web">
             <div class="content">
                 <img src="../drawable/WEBdev.png" alt="Web">
-                <h4>Web development - mutual project</h4>
+                <a href=""><h4>Web development - mutual project</h4></a>
                 <p>Homepage</p>
             </div>
         </div>
@@ -71,14 +71,14 @@ require_once "Navigation.php";
         <div class="column oop">
             <div class="content">
                 <img src="../drawable/jaki-pizza.png" alt="Software">
-                <h4>Pizza app</h4>
+                <a href=""><h4>Pizza app</h4></a>
                 <p>Option 1</p>
             </div>
         </div>
         <div class="column oop">
             <div class="content">
                 <img src="../drawable/kris-pizza.png"  alt="Software">
-                <h4>Pizza app</h4>
+                <a href=""><h4>Pizza app</h4></a>
                 <p>Option 2</p>
             </div>
         </div>
@@ -86,21 +86,21 @@ require_once "Navigation.php";
         <div class="column oop">
             <div class="content">
                 <img src="../drawable/pizza-1.png" alt="Software">
-                <h4>Pizza - mutual project</h4>
+                <a href=""><h4>Pizza - mutual project</h4></a>
                 <p>C# application</p>
             </div>
         </div>
         <div class="column oop">
             <div class="content">
                 <img src="../drawable/building-app.jpg" alt="Software">
-                <h4>Building management system</h4>
+                <a href=""><h4>Building management system</h4></a>
                 <p>Mutual project</p>
             </div>
         </div>
         <div class="column combined">
             <div class="content">
                 <img src="../drawable/last project.png" alt="Combined">
-                <h4>Media Bazaar</h4>
+                <a href=""> <h4>Media Bazaar</h4></a>
                 <p>Mutual project</p>
             </div>
         </div>
