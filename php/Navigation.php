@@ -4,6 +4,7 @@
     <a href="ProjectsPage.php">Projects</a>
     <a href="ContactUsPage.php">Contact Us</a>
     <a href="AboutUsPage.php">About Us</a>
+    
     <?php if( isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
         <a href="logoutOther.php" class="login_reg">Logout</a>
     <?php else: ?>
@@ -12,6 +13,7 @@
 
     <?php if( isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]): ?>
         <a href="MyProfilePage.php" class="login_reg">My Profile</a>
+        <a href="UsersPage.php" class="login_reg">Users</a>
     <?php else: ?>
         <a href="RegistrationPage.php" class="login_reg">Registration</a>
     <?php endif; ?>
