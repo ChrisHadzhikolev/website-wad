@@ -49,7 +49,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"
     ></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+                $.ajax({
+                    type: "POST",
+                    url: "../displayEdit.php",
+                    dataType: "html",
+                    success: function(response){
+                        $("#response_container").html(response);
+                    }
+                });
+        });
+    </script>
     <title>User Profile</title>
 </head>
 <body>
@@ -82,40 +94,14 @@ require_once "Navigation.php";
 
         <div class="col-md-9 personal-info">
             <h3>Personal info</h3>
-
-            <form class="form-horizontal" role="form">
-                <div class="form-group">
-                    <label class="col-lg-3 control-label">First name:</label>
-                    <div class="col-lg-8">
-                        <input class="form-control" type="text" placeholder="eg. John">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-lg-3 control-label">Last name:</label>
-                    <div class="col-lg-8">
-                        <input class="form-control" type="text" placeholder="eg. Doe">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-lg-3 control-label">Email:</label>
-                    <div class="col-lg-8">
-                        <input class="form-control" type="text" placeholder="eg. john_doe@gmail.com">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-lg-3 control-label">Phone Number:</label>
-                    <div class="col-lg-8">
-                        <input class="form-control" type="text" placeholder="eg. xxxx-xxx-xxx">
-                    </div>
-                </div>
-
+            <form class="form-horizontal" role="form" method="post">
+                <div id="response_container"></div>
                 <div class="form-group">
                     <label class="col-md-3 control-label"></label>
                     <div class="col-md-8">
-                        <a href="../edit_info.php">
-                            <input type="button" class="btn btn-primary" value="Edit information">
+                        <a>
+                            <input type="submit" class="btn btn-primary" value="Edit information" name="edit_info">
+                            <?php require_once '../edit_info.php';?>
                         </a>
                     </div>
                 </div>
