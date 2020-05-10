@@ -7,6 +7,7 @@
     <meta name="keywords" content="">
 
     <link rel="stylesheet" href="../css/loginStyle.css">
+    <link rel="stylesheet" href="../css/navigationStyle.css">
 
     <title>Login</title>
 </head>
@@ -15,7 +16,7 @@
 require_once '../login.php';
 ?>
 <div class="modal">
-
+<?php require_once "Navigation.php"?>
     <form class="modal-content animate" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <div class="container" >
             <div <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>>

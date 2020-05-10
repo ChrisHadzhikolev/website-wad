@@ -15,6 +15,7 @@ exit;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+   
 
     <link rel="stylesheet" href="../css/contactStyle.css">
     <link rel="stylesheet" href="../css/footerStyle.css">
@@ -36,34 +37,18 @@ exit;
 require_once "Navigation.php";
 ?>
 <?php if($_SESSION["type"] == "Standard"): ?>
-    <div class="contact-content">
-        <div class="contact-title">
-            <h1>
-                Contact Us
-            </h1>
-        </div>
-        <div class="contact-form">
-            <form method="post" action="">
-                <span>Subject:</span>
-                <br>
-                <label>
-                    <input type="text" name="subject" placeholder="Enter subject" required>
-                </label>
-                <br>
-                <span>Message:</span>
-                <br>
-                <label>
-                    <input type="text" name="subject" placeholder="Your comment..." required>
-                </label>
-                <br>
-                <button type="submit" name="submit">
-						<span>
-							Submit
-						</span>
-                </button>
-            </form>
-        </div>
-    </div>
+    <div>
+  <form action="/action_page.php">
+
+    <label for="subject">Subject</label>
+    <input type="text" name="subject" placeholder="Subject">
+   <br>
+  <textarea>Message us...</textarea>
+  <button href="#" type="submit" value="login">SEND</button>
+    
+  </form>
+</div>
+
 <?php else: require_once "../contact.php";?>
 <?php endif; ?>
 

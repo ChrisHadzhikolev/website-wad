@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ebd6e7-427a-4170-9273-c3744ed0492c" name="Default Changelist" comment="back to top button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Footer.php" afterDir="false" />
-    </list>
+    <list default="true" id="68ebd6e7-427a-4170-9273-c3744ed0492c" name="Default Changelist" comment="back to top button" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +11,11 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="80c3038d-cda7-4de1-88d8-d020ae6463c1" value="Blue" />
+    </colors>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -28,7 +28,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - dbi427502@studmysql01.fhict.local" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -60,19 +65,22 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YakYPuTRQI1YWxC97EAIgbex6C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TelepathyBean (1)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TelepathyBean (1)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,6 +97,28 @@
       <recent name="C:\xampp\htdocs\TelepathyBean\drawable" />
       <recent name="C:\xampp\htdocs\TelepathyBean\css" />
     </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:dbi427502" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:dbi427502" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1d4d2681" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -115,6 +145,12 @@
       <workItem from="1585302603270" duration="37121000" />
       <workItem from="1585996828775" duration="4497000" />
       <workItem from="1586002772612" duration="1551000" />
+      <workItem from="1587910208959" duration="273000" />
+      <workItem from="1587913410576" duration="7591000" />
+      <workItem from="1587921090393" duration="4593000" />
+      <workItem from="1588093832957" duration="4044000" />
+      <workItem from="1588669532715" duration="956000" />
+      <workItem from="1589138665286" duration="12211000" />
     </task>
     <servers />
   </component>
@@ -122,6 +158,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="back to top button" />
     <option name="LAST_COMMIT_MESSAGE" value="back to top button" />
   </component>
@@ -130,14 +167,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="349" y="0" key="#PHP/0.0.1280.680@0.0.1280.680" timestamp="1583188667623" />
-    <state x="233" y="0" key="#SQL_Dialects" timestamp="1583188908123">
+    <state x="233" y="0" key="#SQL_Dialects" timestamp="1588685159946">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1583188908123" />
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585302868913">
+    <state x="233" y="0" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1588685159946" />
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588686382615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585302868913" />
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588686382615" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585302665971">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -158,14 +195,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="323" y="155" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1584235127777" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1585338880504">
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1589144238173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1585338880504" />
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1589144238173" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1584231243408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584231243408" />
+    <state x="357" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1588685930948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1588685930948" />
+    <state x="0" y="0" width="742" height="680" key="find.popup" timestamp="1587914843722">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="742" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587914843722" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1583188156991">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
