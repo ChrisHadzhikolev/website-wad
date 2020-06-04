@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c3eb5c62-59db-4cac-bf8c-84a2d00f980d" name="Jaki" url="http://WAD_project/blog">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
