@@ -22,3 +22,7 @@ Route::get('registration/{loggedin}', 'RegistrationController@show');
 Route::get('login/{loggedin}', 'LoginController@show');
 Route::get('myProfile/{loggedin}', 'MyProfileController@show');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

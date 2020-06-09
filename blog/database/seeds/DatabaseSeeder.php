@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UserSeeder::class);
+        DB::table('contacts')->insert([
+           'subject'=>Str::random(20),
+            'message'=>Str::random(100),
+            'username'=>'sdfgh',
+        ]);
     }
 }

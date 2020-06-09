@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 
 use App\User;
+use GuzzleHttp\Psr7\Request;
 
 class UsersController extends Controller
 {
@@ -15,5 +16,8 @@ class UsersController extends Controller
         } else {
             return view('Users', []);
         }
+    }
+    public function  add(Request $request){
+
     }
 }
