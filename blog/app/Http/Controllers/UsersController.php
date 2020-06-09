@@ -17,7 +17,5 @@ class UsersController extends Controller
             return view('Users', []);
         }
     }
-    public function  add(Request $request){
 
-    }
 }

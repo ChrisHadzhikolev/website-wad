@@ -6,15 +6,13 @@ use App\User;
 
 class HomeController extends Controller
 {
-    public function show($loggedin){
-        if ($loggedin){
-        return view('Home',[]);
-        }else{
-          return view('Home', []);
-        }
+    public function show(){
+
+          return view('welcome', []);
+
     }
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 }

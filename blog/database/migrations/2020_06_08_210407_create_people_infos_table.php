@@ -18,7 +18,7 @@ class CreatePeopleInfosTable extends Migration
             $table->string('firstName');
             $table->string('lastName');
             $table->string('email');
-            $table->string('phoneNumber')->nullable;
+            $table->string('phoneNumber')->nullable->default(new \Illuminate\Database\Query\Expression('null'));
             $table->string('username');
             $table->timestamps();
         });

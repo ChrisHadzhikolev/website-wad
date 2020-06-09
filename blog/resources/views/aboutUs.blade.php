@@ -1,5 +1,6 @@
 @extends('layouts.master')
 @section('links')
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     @parent
     <link rel="stylesheet" href="{{asset('css/aboutUsStyle.css')}}">
 @endsection
@@ -11,7 +12,7 @@
     </div>
     <div class="container">
         <img
-            src="../jaki.jpg"
+            src="{{asset('images/azus1.jpg')}}"
             width="100"
             height="50"
             alt="Avatar"
