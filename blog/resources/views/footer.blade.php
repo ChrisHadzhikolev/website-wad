@@ -22,13 +22,12 @@
             <div class="col-xs-6 col-md-3">
                 <h6>Quick Links</h6>
                 <ul class="footer-links">
-                    <li><a href="../index.php">Home</a></li>
-                    <li><a href="NewsPage.php">News</a></li>
-                    <li><a href="ProjectsPage.php">Projects</a></li>
-                    <li><a href="ContactUsPage.php">Contact Us</a></li>
-                    <li><a href="AboutUsPage.php">About Us</a></li>
-                    <li><a href="LoginPage.php">Login</a></li>
-                    <li><a href="RegistrationPage.php">Join Us</a></li>
+                    <li><a href="<?php route('home')?>">Home</a></li>
+                    <li><a href="<?php route('projects')?>">Projects</a></li>
+                    <li><a href="<?php route('contact')?>">Contact Us</a></li>
+                    <li><a href="<?php route('about')?>">About Us</a></li>
+                    <li><a href="<?php route('login')?>">Login</a></li>
+                    <li><a href="<?php route('register')?>">Join Us</a></li>
                 </ul>
             </div>
         </div>

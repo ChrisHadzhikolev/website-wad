@@ -8,12 +8,8 @@ use App\User;
 
 class LoginController extends Controller
 {
-    public function show($loggedin)
+    public function show()
     {
-        if ($loggedin) {
-            return view('Login', []);
-        } else {
-            return view('Login', []);
-        }
+            return view('login', []);
     }
 }

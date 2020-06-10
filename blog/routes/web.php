@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('home/{loggedin}', 'HomeController@show');
-Route::get('aboutUs/{loggedin}', 'AboutUsController@show');
+Route::get('aboutUs/{loggedin}', 'AboutController@show');
 Route::get('projects/{loggedin}', 'ProjectsController@show');
-Route::get('contactUs/{loggedin}', 'ContactUsController@show');
+Route::get('contactUs/{loggedin}', 'ContactController@show');
 Route::get('users/{loggedin}', 'UsersController@show');
 Route::get('registration/{loggedin}', 'RegistrationController@show');
 Route::get('login/{loggedin}', 'LoginController@show');
