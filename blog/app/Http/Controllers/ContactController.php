@@ -15,4 +15,21 @@ class ContactController extends Controller
     {
         return view('contact');
     }
+    public function getAddContact()
+    {
+        //return view('contact');
+    }
+    public function postAddContact()
+    {
+        //return view('contact');
+    }
+    public function getContact($id)
+    {
+        //return view('contact');
+    }
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
 }

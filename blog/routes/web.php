@@ -13,6 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
+Route::get('/about', 'AboutController@index');
 Route::get('/projects', 'ProjectsController@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/contact/add', 'IndexController@getAddContact');
@@ -28,3 +29,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

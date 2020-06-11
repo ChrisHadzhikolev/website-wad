@@ -15,4 +15,9 @@ class MyProfileController extends Controller
     {
         return view('myProfile');
     }
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 }

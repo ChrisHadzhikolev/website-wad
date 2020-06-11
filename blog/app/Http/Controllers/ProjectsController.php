@@ -15,4 +15,9 @@ class ProjectsController extends Controller
     {
         return view('projects');
     }
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 }
