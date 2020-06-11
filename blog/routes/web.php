@@ -23,6 +23,8 @@ Route::get('/login', 'LoginController@index');
 Route::get('/register', 'RegisterController@index');
 Route::get('/myProfile', 'MyProfileController@index');
 Route::get('/users', 'UsersController@index');
+//Route::post('/myProfile', 'UsersController@index');
+
 
 
 Auth::routes();

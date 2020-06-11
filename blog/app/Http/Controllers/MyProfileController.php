@@ -15,6 +15,12 @@ class MyProfileController extends Controller
     {
         return view('myProfile');
     }
+    public function generateUsername()
+    {
+        $word = array_merge(range('a', 'z'), range('A', 'Z'));
+        shuffle($word);
+        return substr(implode($word), 0, 8);
+    }
 
     public function __construct()
     {

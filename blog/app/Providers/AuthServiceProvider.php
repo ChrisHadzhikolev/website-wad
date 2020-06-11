@@ -25,6 +25,32 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('users_CRUD', function ($user) {
+            return $user->isAdmin;
+        });
+
+        Gate::define('see_messages', function ($user) {
+            return $user->isAdmin;
+        });
+        Gate::define('write_messages', function ($user) {
+            return $user->isUser;
+        });
+
+        Gate::define('users_CRUD', function ($user) {
+            return $user->isAdmin
+                ? Response::allow()
+                : Response::deny('You must be an admin.');
+        });
+        Gate::define('see_messages', function ($user) {
+            return $user->isAdmin
+                ? Response::allow()
+                : Response::deny('You must be an admin to see received messages.');
+        });
+        Gate::define('see_messages', function ($user) {
+            return $user->isAdmin
+                ? Response::allow()
+                : Response::deny('You must be an admin.');
+        });
     }
+
 }
